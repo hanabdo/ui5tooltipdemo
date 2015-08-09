@@ -1,0 +1,1 @@
+jQuery.sap.require("zcust.lib.Controller"),jQuery.sap.require("sampleapp.mods.main.model.gSettings"),zcust.lib.Controller.extend("sampleapp.mods.main.controller.App",{onInit:function(a){var b=new sampleapp.mods.main.model.gSettings;this.getView().setModel(b,"gSettings")}});

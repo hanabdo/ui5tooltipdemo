@@ -1,0 +1,1 @@
+jQuery.sap.require("zcust.lib.JSONModel"),jQuery.sap.declare("sampleapp.mods.main.model.gSettings"),zcust.lib.JSONModel.extend("sampleapp.mods.main.model.gSettings",{oModel:{mainPageValue:"Value for the main page",detailPageValue:"Value for the detail page"}});
