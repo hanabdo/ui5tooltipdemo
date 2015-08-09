@@ -7,7 +7,8 @@ logs
 node_modules
 
 # all output files *-dbg.js and *-preload.js, jsdocs and zip distributive
-build
+# this is build branch
+# build
 
 # resorces for local server like `/sap/ui5/1/resources`
 res
