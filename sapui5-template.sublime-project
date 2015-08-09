@@ -1,0 +1,36 @@
+{
+	"folders":
+	[
+		{
+			"name": "src",
+			"path": "src"
+		},
+		{
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				"src"
+			],
+			"path": ".",
+			"file_exclude_patterns": [
+				"*.sublime-project"
+			]
+		},
+		{
+			"path": "/home/sypwex/tepaup"
+		},
+		{
+			"name": "build-out-Documentation",
+			"path": "build/out/doc",
+			"folder_exclude_patterns":
+			[
+				"fonts",
+				"scripts",
+				"styles"
+			],
+			"file_exclude_patterns": [
+				"*.js.html"
+			]
+		}
+	]
+}

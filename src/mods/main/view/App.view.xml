@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mvc:View controllerName="sampleapp.mods.main.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:custom="sampleapp.controls"
+
+    class="appView"
+>
+  <App>
+    <Page showHeader="false" showFooter="false">
+      <content>
+        <NavContainer
+            id="navContainer"
+            class="appNavContainer"
+            defaultTransitionName="slide"
+        />
+      </content>
+    </Page>
+  </App>
+</mvc:View>

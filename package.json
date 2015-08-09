@@ -1,0 +1,45 @@
+{
+  "name": "sapui5-template",
+  "version": "0.0.1",
+  "description": "sapui5 grunt powered template",
+  "main": "index.html",
+  "urlprefix": "sampleapp/",
+  "dirs": {
+      "build": "build/",
+      "stage": "build/stage/",
+      "process": "build/process/",
+      "finalize": "build/finalize/",
+      "out": "build/out/",
+
+      "sapui5": "res/sapui5/",
+      "src": "src/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krasnobaev/sapui5-template.git"
+  },
+  "author": "Aleksey Krasnobaev",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/krasnobaev/sapui5-template/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-jsdoc": "^0.6.7",
+    "grunt-openui5": "https://github.com/krasnobaev/grunt-openui5/tarball/da4d0b123ecda852224d200a5d3112e4d0e42499",
+    "grunt-serve": "^0.1.6",
+    "grunt-shell": "^1.1.2",
+    "jsdoc": "^3.3.2",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}
