@@ -1,0 +1,25 @@
+{
+  "name": "openui5-template",
+  "description": "openui5 template",
+  "main": "index.html",
+  "authors": [
+    "Aleksey Krasnobaev <alekseykrasnobaev@gmail.com>"
+  ],
+  "license": "GPLv2",
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "https://github.com/krasnobaev/sapui5-template",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "openui5-sap.m": "openui5/packaged-sap.m#~1.36",
+    "openui5-themelib_sap_bluecrystal": "openui5/packaged-themelib_sap_bluecrystal#~1.36"
+  }
+}

@@ -11,11 +11,11 @@
 
 3. Now you can start development server
    ```
-   grunt startserver
+   grunt serve
    ```
    or explicitly
    ```
-   grunt startserver:dev
+   grunt serve:dev
    ```
 
 4. When you finish you can build `dbg` and `preload` files and produce `jsdoc`
@@ -25,7 +25,7 @@
 
 5. Then you can test the distribution and check [jsdoc](http://localhost:8000/sampleapp/doc)
    ```
-   grunt startserver:dist
+   grunt serve:dist
    ```
 
 ## Features

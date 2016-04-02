@@ -6,22 +6,8 @@
 			"path": "src"
 		},
 		{
-			"folder_exclude_patterns":
-			[
-				"node_modules",
-				"src"
-			],
-			"path": ".",
-			"file_exclude_patterns": [
-				"*.sublime-project"
-			]
-		},
-		{
-			"path": "/home/sypwex/tepaup"
-		},
-		{
-			"name": "build-out-Documentation",
-			"path": "build/out/doc",
+			"name": "doc",
+			"path": "build/doc",
 			"folder_exclude_patterns":
 			[
 				"fonts",
@@ -31,6 +17,21 @@
 			"file_exclude_patterns": [
 				"*.js.html"
 			]
+		},
+		{
+			"name": "template-root",
+			"path": "."
 		}
-	]
+	],
+	"settings":
+	{
+		"ensure_newline_at_eof_on_save": true,
+		"rulers":
+		[
+			80
+		],
+		"tab_size": 2,
+		"translate_tabs_to_spaces": true,
+		"trim_trailing_white_space_on_save": true
+	}
 }
