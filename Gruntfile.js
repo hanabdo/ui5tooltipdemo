@@ -342,7 +342,7 @@ module.exports = function (grunt) {
 
   /* build */
 
-  function store(err, stdout, stderr, fCallBack) {
+  function store(err, stdout, stderr, fCallBack) {§
     grunt.config('bower', JSON.parse(stdout));
     fCallBack();
   };

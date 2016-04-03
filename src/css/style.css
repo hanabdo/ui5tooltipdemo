@@ -1,11 +1,18 @@
+/* tooltip */
+@import url("tooltip.css");
+
 /*App.view.xml*/
 .appView {
-	display: block;
+  display: block;
 }
 .appNavContainer {
-	position: static;
+  position: static;
 }
 
 /*Main.view.xml*/
 
 /*Detail.view.xml*/
+
+.sapMPopoverArr {
+  display: none !important;
+}

@@ -16,6 +16,7 @@
     xmlns:ui="sap.ca.ui"
     xmlns:unified="sap.ui.unified"
     xmlns:vc="sap.viz.ui5.controls"
+    xmlns:zlib="zlib"
 >
   <Page showFooter="true">
 

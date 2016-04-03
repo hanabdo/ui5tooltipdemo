@@ -22,6 +22,13 @@ zcust.lib.Controller.extend('sampleapp.mods.main.controller.Main', {
     } else {
       this.getLogger().setLevel(jQuery.sap.log.Level.WARNING);
     }
+
+    [this.byId('label1'), this.byId('label2'), this.byId('label3'), this.byId('label4'), this.byId('label5')].forEach( function(el) {
+       (new zlib.Tooltip({
+              placement: 'Top',
+              title: 'bla' + el.getId(),
+        })).attachTo(el);
+    });
   },
 
   /**
@@ -32,6 +39,10 @@ zcust.lib.Controller.extend('sampleapp.mods.main.controller.Main', {
     if (sName !== 'main') {
       return;
     }
+  },
+
+  onShowTooltip: function (oControlEvent) {
+    (new zlib.Tooltip).openBy($('#__label0')[0]);
   },
 
   /**

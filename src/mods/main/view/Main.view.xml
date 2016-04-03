@@ -19,7 +19,16 @@
 >
   <Page showFooter="true">
     <content>
-      <Label text="{gSettings>/mainPageValue}"/>
+      <Label width="100%" text=" "/>
+      <Label id="label1" textAlign="Center" width="100%" text="{gSettings>/mainPageValue}"/>
+      <Label width="100%" text=" "/>
+      <Label id="label2" textAlign="Center" width="100%" text="{gSettings>/mainPageValue}"/>
+      <Label width="100%" text=" "/>
+      <Label id="label3" textAlign="Center" width="100%" text="{gSettings>/mainPageValue}"/>
+      <Label width="100%" text=" "/>
+      <Label id="label4" textAlign="Center" width="100%" text="{gSettings>/mainPageValue}"/>
+      <Label width="100%" text=" "/>
+      <Label id="label5" textAlign="Center" width="100%" text="{gSettings>/mainPageValue}"/>
     </content>
 
     <footer>
@@ -29,6 +38,10 @@
         </contentMiddle>
 
         <contentRight>
+          <Button
+            text="show tooltip"
+            press="onShowTooltip"
+          />
           <Button
               text="Go in details"
               iconFirst="false"

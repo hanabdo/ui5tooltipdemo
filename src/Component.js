@@ -2,6 +2,7 @@
  * @requires sampleapp.TopRouter
  */
 jQuery.sap.require('sampleapp.TopRouter');
+jQuery.sap.require('zlib.Tooltip');
 
 /**
  * @class sampleapp.Component
@@ -13,7 +14,7 @@ sap.ui.core.UIComponent.extend('sampleapp.Component', {
     version: '0.0.1',
     includes: [],
     dependencies: {
-      libs: ['sap.m'],
+      libs: ['sap.m', 'zlib'],
       components: [],
     },
     rootView: 'sampleapp.mods.main.view.App',
