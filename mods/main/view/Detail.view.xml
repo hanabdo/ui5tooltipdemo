@@ -1,0 +1,46 @@
+<core:View
+    controllerName="sampleapp.mods.main.controller.Detail"
+    xmlns="sap.m"
+    xmlns:custom="sampleapp.controls"
+    xmlns:mvc="sap.ui.core.mvc"
+
+    xmlns:c="sap.ui.commons"
+    xmlns:ch="sap.ca.ui.charts"
+    xmlns:core="sap.ui.core"
+    xmlns:d="sap.viz.ui5.data"
+    xmlns:fb="sap.ui.comp.filterbar"
+    xmlns:feeds="sap.viz.ui5.controls.common.feeds"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:sc="sap.suite.ui.commons"
+    xmlns:ui="sap.ca.ui"
+    xmlns:unified="sap.ui.unified"
+    xmlns:vc="sap.viz.ui5.controls"
+    xmlns:zlib="zlib"
+>
+  <Page showFooter="true">
+
+    <content>
+      <Label text="{gSettings>/detailPageValue}"/>
+    </content>
+
+    <footer>
+      <Bar>
+        <contentLeft>
+          <Button
+              text="Go in general"
+              iconFirst="true"
+              icon="sap-icon://arrow-left"
+              press="navToMain"
+          />
+        </contentLeft>
+
+        <contentMiddle>
+          <Label text="Detail Page"/>
+        </contentMiddle>
+
+      </Bar>
+    </footer>
+
+  </Page>
+</core:View>
